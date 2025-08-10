@@ -49,6 +49,8 @@ export default function BarcodeScanner() {
       setScannedCodes([...scannedCodes, manualCode]);
       sendCodeToDatabase(manualCode);
       setManualCode("");
+
+      console.log(scannedCodes)
     }
   };
 
