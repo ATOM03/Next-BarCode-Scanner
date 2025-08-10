@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Quagga from "quagga";
-import axios from "axios";
+
 // import { Card, Button, Input } from "@/components/ui";
 
 export default function BarcodeScanner() {
   const [scannedCodes, setScannedCodes] = useState([]);
   const [manualCode, setManualCode] = useState("");
+  const axios = require("axios/dist/node/axios.cjs");
 
   useEffect(() => {
     Quagga.init(
