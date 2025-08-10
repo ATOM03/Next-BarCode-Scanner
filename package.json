@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +45,30 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "next-barcode-scanner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
+    "axios": "^1.9.0",
+    "next": "15.3.3",
+    "quagga": "^0.12.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+>>>>>>> 34a40afd881d8fed6cbc6d81cbda907253779757
   }
 }
