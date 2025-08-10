@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import BarcodeScanner from "./components/BarcodeScanner";
 import "./App.css";
 
