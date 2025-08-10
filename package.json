@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -12,9 +11,10 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.501.0",
+    "next": "^15.4.6",
     "quagga": "^0.12.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
     "shadcn": "^2.4.1",
     "tailwind": "^4.0.0",
@@ -45,30 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "name": "next-barcode-scanner",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@vercel/speed-insights": "^1.2.0",
-    "axios": "^1.9.0",
-    "next": "15.3.3",
-    "quagga": "^0.12.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "tailwindcss": "^4"
->>>>>>> 34a40afd881d8fed6cbc6d81cbda907253779757
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "babel-jest": "^30.0.5"
   }
 }
